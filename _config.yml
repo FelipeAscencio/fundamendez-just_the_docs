@@ -1,4 +1,4 @@
-title: FundaMendez
+title: "FundaMendez"
 description: "Sitio de la materia 'Fundamentos de programación' cátedra Méndez."
 url: "https://fundamendez.github.io"
 
@@ -10,6 +10,8 @@ search_enabled: true
 plugins:
   - jekyll-remote-theme
 
+search_enabled: true
+color_scheme: light
 favicon_ico: "/assets/img/favicon.ico"
 
 just_the_docs:
