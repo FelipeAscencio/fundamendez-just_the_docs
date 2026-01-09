@@ -1,0 +1,18 @@
+<div class="doc-card">
+  <div class="doc-photo">
+    <img
+      class="doc-img doc-img--base"
+      src="{{ include.base | relative_url }}"
+      alt="Foto de {{ include.nombre }}"
+      loading="lazy"
+    />
+    <img
+      class="doc-img doc-img--alt"
+      src="{{ include.alt | relative_url }}"
+      alt="Foto alternativa de {{ include.nombre }}"
+      loading="lazy"
+    />
+  </div>
+
+  <div class="doc-name">{{ include.nombre }}</div>
+</div>
