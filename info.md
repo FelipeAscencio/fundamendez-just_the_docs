@@ -27,7 +27,7 @@ nav_order: 2
         <option value="" selected disabled>Seleccionar…</option>
         <option value="{{ '/assets/docs/Encuesta de fin de curso - 2025 - 1C.html' | relative_url }}">1C 2025</option>
         <option value="{{ '/assets/docs/Encuesta de fin de curso - 2024 - 2C.html' | relative_url }}">2C 2024</option>
-        <option value="{{ '/assets/docs/Encuesta de fin de curso - 2024 - 1C.html' | relative_url }}">1C 2024</option>
+        <option value="{{ '/encuestas/encuesta_2024_1c' | relative_url }}">1C 2024</option>
       </select>
 
       <a id="fm-ver-encuesta" class="fm-btn primary" href="#" target="_blank" rel="noopener">Ver</a>
