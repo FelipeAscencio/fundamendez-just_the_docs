@@ -1,0 +1,24 @@
+<button id="theme-toggle" class="btn btn-outline" type="button" style="margin-left:12px;">
+  🌙/☀️
+</button>
+
+<script>
+(function () {
+  const key = "color-scheme";
+  const btn = document.getElementById("theme-toggle");
+  const root = document.documentElement;
+
+  function setScheme(s) {
+    root.setAttribute("data-color-scheme", s);
+    localStorage.setItem(key, s);
+  }
+
+  const saved = localStorage.getItem(key);
+  if (saved) setScheme(saved);
+
+  btn.addEventListener("click", () => {
+    const current = root.getAttribute("data-color-scheme") || "light";
+    setScheme(current === "light" ? "dark" : "light");
+  });
+})();
+</script>
