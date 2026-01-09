@@ -11,7 +11,7 @@ Atención: El siguiente cronograma es tentativo y podrá sufrir cambios.
 > Puede descargar la versión en pdf desde [acá]({{ '/assets/docs/cronograma.pdf' | relative_url }}){:target="_blank" rel="noopener"}.
 
 | Semana | Fecha | Tipo | Modalidad | Temas |
-|---:|:---:|:---:|:---:|---|
+|:---:|:---:|:---:|:---:|---|
 | 1 | 19/08 | ![Teórica](https://img.shields.io/badge/Teórica-red) | ![Virtual](https://img.shields.io/badge/Virtual-gren) | Lenguaje C<br>Variables, constantes y literales<br>Tipos de datos y operadores<br>Estructuras de control<br>Compilación<br>printf y scanf |
 | 1 | 21/08 | ![Práctica](https://img.shields.io/badge/Práctica-blue) | ![Presencial](https://img.shields.io/badge/Presencial-lightblue) | Funciones<br>Pasaje por valor y referencia<br>Buenas prácticas |
 | 2 | 26/08 | ![Teórica](https://img.shields.io/badge/Teórica-red) | ![Presencial](https://img.shields.io/badge/Presencial-lightblue) | Buenas prácticas<br>Vectores<br>Inserción<br>Eliminación<br>Búsqueda lineal |
