@@ -10,8 +10,9 @@ search_enabled: true
 plugins:
   - jekyll-remote-theme
 
-search_enabled: true
-enable_theme_switcher: true
+color_scheme: dark
+color_scheme_toggle: true
+
 favicon_ico: "/assets/img/favicon.ico"
 
 just_the_docs:
