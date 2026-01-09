@@ -58,6 +58,36 @@
   .doc-grid { grid-template-columns: 1fr; }
 }
 
+/* Estilos personalizados para las redirecciones a las otras plataformas */
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-nav {
+  flex: 1 1 auto;
+}
+
+.fm-side-links {
+  margin-top: auto;
+  padding: 12px 16px;
+  border-top: 1px solid rgba(255,255,255,.08);
+  display: grid;
+  gap: 8px;
+}
+
+.fm-side-link {
+  text-decoration: none;
+  font-weight: 600;
+  opacity: .9;
+}
+
+.fm-side-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 /* Estilos personalizados para la vista 'Encuestas' */
 
 /* TBC */

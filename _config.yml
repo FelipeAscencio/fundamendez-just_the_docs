@@ -10,6 +10,9 @@ search_enabled: true
 plugins:
   - jekyll-remote-theme
 
+# Configuración de la navegación personalizada.
+nav_footer_custom: nav_footer_custom.html
+
 # Configuración del esquema de color.
 color_scheme: dark
 color_scheme_toggle: true

@@ -7,7 +7,7 @@ nav_order: 1
 # Bienvenidos a FundaMendez 👋
 
 Este sitio reúne todo el material correspondiente a la materia  
-**Fundamentos de Programación – Cátedra Méndez**.
+**TB021 - Fundamentos de Programación - Curso 04 (Mendez)**.
 
 Acá vas a encontrar, de forma ordenada y actualizada:
 
