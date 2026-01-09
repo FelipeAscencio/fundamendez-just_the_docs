@@ -26,7 +26,7 @@ body::before { content: "custom.css OK"; display:none; }
   overflow:hidden;
 }
 
-.doc-card .doc-photo > img.doc-img{
+.doc-card .doc-photo img.doc-img{
   position:absolute !important;
   inset:0 !important;
   width:100% !important;
