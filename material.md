@@ -32,30 +32,57 @@ Acá vas a encontrar el material de la cursada organizado por categoría.
 ### Teórica
 
 <details>
-<summary><b>Ver material clases teóricas</b></summary>
+  <summary><b>Ver material clases teóricas</b></summary>
 
-- [Teórica — Semana 1 (PDF)]({{ '/assets/material/clases/teorica_semana_01.pdf' | relative_url }})
-- [Teórica — Semana 2 (PDF)]({{ '/assets/material/clases/teorica_semana_02.pdf' | relative_url }})
+  <ul>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_01.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 1</a></li>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_02.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 2</a></li>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_03.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 3</a></li>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_04.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 4</a></li>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_05.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 5</a></li>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_06.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 6</a></li>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_07.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 7</a></li>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_08.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 8</a></li>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_09.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 9</a></li>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_10.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 10</a></li>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_11.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 11</a></li>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_12.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 12</a></li>
+    <li><a href="{{ '/assets/material/clases/teoricas/teorica_semana_14.zip' | relative_url }}" target="_blank" rel="noopener">Teórica — Semana 14</a></li>
+  </ul>
 
 </details>
 
 ### Práctica
 
 <details>
-<summary><b>Ver material clases prácticas</b></summary>
+  <summary><b>Ver material clases prácticas</b></summary>
 
-- [Práctica — Semana 1 (PDF)]({{ '/assets/material/clases/practica_semana_01.pdf' | relative_url }})
-- [Práctica — Semana 2 (PDF)]({{ '/assets/material/clases/practica_semana_02.pdf' | relative_url }})
+  <ul>
+    <li><a href="{{ '/assets/material/clases/practicas/practica_semana_01.zip' | relative_url }}" target="_blank" rel="noopener">Práctica — Semana 1</a></li>
+    <li><a href="{{ '/assets/material/clases/practicas/practica_semana_02.zip' | relative_url }}" target="_blank" rel="noopener">Práctica — Semana 2</a></li>
+    <li><a href="{{ '/assets/material/clases/practicas/practica_semana_03.zip' | relative_url }}" target="_blank" rel="noopener">Práctica — Semana 3</a></li>
+    <li><a href="{{ '/assets/material/clases/practicas/practica_semana_04.zip' | relative_url }}" target="_blank" rel="noopener">Práctica — Semana 4</a></li>
+    <li><a href="{{ '/assets/material/clases/practicas/practica_semana_05.zip' | relative_url }}" target="_blank" rel="noopener">Práctica — Semana 5</a></li>
+    <li><a href="{{ '/assets/material/clases/practicas/practica_semana_06.zip' | relative_url }}" target="_blank" rel="noopener">Práctica — Semana 6</a></li>
+    <li><a href="{{ '/assets/material/clases/practicas/practica_semana_07.zip' | relative_url }}" target="_blank" rel="noopener">Práctica — Semana 7</a></li>
+    <li><a href="{{ '/assets/material/clases/practicas/practica_semana_08.zip' | relative_url }}" target="_blank" rel="noopener">Práctica — Semana 8</a></li>
+    <li><a href="{{ '/assets/material/clases/practicas/practica_semana_10.zip' | relative_url }}" target="_blank" rel="noopener">Práctica — Semana 10</a></li>
+    <li><a href="{{ '/assets/material/clases/practicas/practica_semana_11.zip' | relative_url }}" target="_blank" rel="noopener">Práctica — Semana 11</a></li>
+    <li><a href="{{ '/assets/material/clases/practicas/practica_semana_12.zip' | relative_url }}" target="_blank" rel="noopener">Práctica — Semana 12</a></li>
+    <li><a href="{{ '/assets/material/clases/practicas/practica_semana_13.zip' | relative_url }}" target="_blank" rel="noopener">Práctica — Semana 13</a></li>
+  </ul>
 
 </details>
 
 ## Trabajos Prácticos
 
 <details>
-<summary><b>Ver trabajos prácticos</b></summary>
+  <summary><b>Ver material clases prácticas</b></summary>
 
-- [Trabajo Práctico 0]({{ '/assets/material/tps/tp0.pdf' | relative_url }})
-- [Trabajo Práctico 1]({{ '/assets/material/tps/tp1.pdf' | relative_url }})
-- [Trabajo Práctico 2]({{ '/assets/material/tps/tp2.pdf' | relative_url }})
+  <ul>
+    <li><a href="{{ '/assets/material/trabajos_practicos/tp0.zip' | relative_url }}" target="_blank" rel="noopener">Trabajo práctico 0</a></li>
+    <li><a href="{{ '/assets/material/trabajos_practicos/tp1.zip' | relative_url }}" target="_blank" rel="noopener">Trabajo práctico 1</a></li>
+    <li><a href="{{ '/assets/material/trabajos_practicos/tp2.zip' | relative_url }}" target="_blank" rel="noopener">Trabajo práctico 2</a></li>
+  </ul>
 
 </details>
