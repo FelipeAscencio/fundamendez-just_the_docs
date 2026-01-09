@@ -1,20 +1,23 @@
+# Definición del título, descripción y URL del sitio.
 title: "FundaMendez"
 description: "Sitio de la materia 'Fundamentos de programación' cátedra Méndez."
 url: "https://fundamendez.github.io"
 
+# Configuración del tema y plugins.
 remote_theme: just-the-docs/just-the-docs
-
 nav_enabled: true
 search_enabled: true
-
 plugins:
   - jekyll-remote-theme
 
+# Configuración del esquema de color.
 color_scheme: dark
 color_scheme_toggle: true
 
+# Configuración del favicon (Icono de la pestaña en el navegador).
 favicon_ico: "/assets/img/favicon.ico"
 
+# Configuración de CSS personalizado.
 just_the_docs:
   custom_css:
     - assets/css/custom.css
