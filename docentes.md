@@ -154,6 +154,7 @@ nav_order: 5
       <sub>📧 example</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
+  </tr>
 
 </table>
 
