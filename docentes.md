@@ -13,21 +13,21 @@ nav_order: 5
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
       <b>Agus B.</b><br>
-      <sub>📧 agusb@fundamendez.edu</sub><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
 
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
       <b>Agus F.</b><br>
-      <sub>📧 agusf@fundamendez.edu</sub><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
 
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
       <b>Agus S.</b><br>
-      <sub>📧 agus_s@fundamendez.edu</sub><br>
+      <sub>📧 example@fi.uba.ar<</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
   </tr>
@@ -36,21 +36,21 @@ nav_order: 5
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
       <b>Ani</b><br>
-      <sub>📧 ani@fundamendez.edu</sub><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
 
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
       <b>Bauti</b><br>
-      <sub>📧 bauti@fundamendez.edu</sub><br>
+      <sub>📧 example@fi.uba.com</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
 
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
       <b>Berni</b><br>
-      <sub>📧 berni@fundamendez.edu</sub><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
   </tr>
@@ -58,22 +58,22 @@ nav_order: 5
   <tr>
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Ani</b><br>
-      <sub>📧 ani@fundamendez.edu</sub><br>
+      <b>Brisa</b><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
 
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Bauti</b><br>
-      <sub>📧 bauti@fundamendez.edu</sub><br>
+      <b>Danny</b><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
 
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Berni</b><br>
-      <sub>📧 berni@fundamendez.edu</sub><br>
+      <b>Juampi</b><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
   </tr>
@@ -81,22 +81,22 @@ nav_order: 5
   <tr>
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Ani</b><br>
-      <sub>📧 ani@fundamendez.edu</sub><br>
+      <b>Mariano</b><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
 
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Bauti</b><br>
-      <sub>📧 bauti@fundamendez.edu</sub><br>
+      <b>Mar</b><br>
+      <sub>📧 example@gmail.com</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
 
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Berni</b><br>
-      <sub>📧 berni@fundamendez.edu</sub><br>
+      <b>Martu</b><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
   </tr>
@@ -104,22 +104,22 @@ nav_order: 5
   <tr>
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Ani</b><br>
-      <sub>📧 ani@fundamendez.edu</sub><br>
+      <b>May</b><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
 
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Bauti</b><br>
-      <sub>📧 bauti@fundamendez.edu</sub><br>
+      <b>Mica</b><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
 
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Berni</b><br>
-      <sub>📧 berni@fundamendez.edu</sub><br>
+      <b>Paula</b><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
   </tr>
@@ -127,22 +127,22 @@ nav_order: 5
   <tr>
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Ani</b><br>
-      <sub>📧 ani@fundamendez.edu</sub><br>
+      <b>Solci</b><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
 
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Bauti</b><br>
-      <sub>📧 bauti@fundamendez.edu</sub><br>
+      <b>Tomi</b><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
 
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Berni</b><br>
-      <sub>📧 berni@fundamendez.edu</sub><br>
+      <b>Tute</b><br>
+      <sub>📧 example@fi.uba.ar</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
   </tr>
@@ -150,18 +150,10 @@ nav_order: 5
   <tr>
     <td align="center" width="220">
       <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Ani</b><br>
-      <sub>📧 ani@fundamendez.edu</sub><br>
+      <b>Yoel</b><br>
+      <sub>📧 example</sub><br>
       <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
     </td>
-
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Bauti</b><br>
-      <sub>📧 bauti@fundamendez.edu</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-  </tr>
 
 </table>
 
