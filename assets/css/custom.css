@@ -1,71 +1,46 @@
-/* Indicador de carga del archivo CSS personalizado. */
-body::before { content: "custom.css OK"; display:none; }
-
 /* Estilos personalizados para la vista 'Docentes'- */
 
-.doc-grid{
-  display:grid !important;
-  grid-template-columns: repeat(3, minmax(220px, 1fr)) !important;
-  gap:18px !important;
-  margin-top:16px;
+.doc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 16px;
 }
 
-.doc-card{
-  border: 1px solid rgba(255,255,255,.08);
-  border-radius: 10px;
+.doc-card {
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 12px;
   background: rgba(255,255,255,.06);
-  box-shadow: 0 2px 10px rgba(0,0,0,.25);
-  overflow:hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,.25);
+  overflow: hidden;
 }
 
-.doc-card .doc-photo{
-  position:relative !important;
-  width:100% !important;
+.doc-photo {
+  width: 100%;
   aspect-ratio: 4 / 5;
   background: rgba(255,255,255,.04);
-  overflow:hidden;
+  overflow: hidden;
 }
 
-.doc-card .doc-photo img.doc-img{
-  position:absolute !important;
-  inset:0 !important;
-  width:100% !important;
-  height:100% !important;
-  object-fit:cover !important;
-  display:block !important;
-  max-width:none !important;
-  margin:0 !important;
-  border-radius:0 !important;
-  opacity:1;
-  transition: opacity 180ms ease-in-out;
+.doc-photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
-.doc-card .doc-photo > img.doc-img--alt{
-  opacity:0;
+.doc-name {
+  text-align: center;
+  padding: 10px 12px;
+  font-weight: 600;
 }
 
-.doc-card:hover .doc-photo > img.doc-img--alt,
-.doc-card:focus-within .doc-photo > img.doc-img--alt{
-  opacity:1;
-}
-.doc-card:hover .doc-photo > img.doc-img--base,
-.doc-card:focus-within .doc-photo > img.doc-img--base{
-  opacity:0;
+@media (max-width: 1000px) {
+  .doc-grid { grid-template-columns: repeat(2, minmax(220px, 1fr)); }
 }
 
-.doc-name{
-  text-align:center;
-  padding:10px 12px;
-  font-weight:600;
-}
-
-.docentes-wrapper { max-width: 100%; }
-
-@media (max-width: 1000px){
-  .doc-grid{ grid-template-columns: repeat(2, minmax(220px, 1fr)) !important; }
-}
-@media (max-width: 650px){
-  .doc-grid{ grid-template-columns: 1fr !important; }
+@media (max-width: 650px) {
+  .doc-grid { grid-template-columns: 1fr; }
 }
 
 /* Estilos personalizados para la vista 'Encuestas'. */
