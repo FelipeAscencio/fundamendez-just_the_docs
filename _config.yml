@@ -1,0 +1,13 @@
+title: FundaMendez
+description: Sitio de la materia
+remote_theme: just-the-docs/just-the-docs
+
+nav_enabled: true
+search_enabled: true
+
+plugins:
+  - jekyll-remote-theme
+
+just_the_docs:
+  custom_css:
+    - assets/css/custom.css
