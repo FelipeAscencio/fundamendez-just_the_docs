@@ -10,9 +10,6 @@ search_enabled: true
 plugins:
   - jekyll-remote-theme
 
-# Configuración de la navegación personalizada.
-nav_footer_custom: nav_footer_custom.html
-
 # Configuración del esquema de color.
 color_scheme: dark
 color_scheme_toggle: true
@@ -24,3 +21,18 @@ favicon_ico: "/assets/img/favicon.ico"
 just_the_docs:
   custom_css:
     - assets/css/custom.css
+
+# Configuración de enlaces externos en la barra de navegación.
+nav_external_links:
+  - title: "AlgoTron"
+    url: "https://algotron.com.ar/"
+    opens_in_new_tab: true
+  - title: "RPL"
+    url: "http://www.myrpl.ar/"
+    opens_in_new_tab: true
+  - title: "Slack"
+    url: "https://fundamendez.slack.com/"
+    opens_in_new_tab: true
+  - title: "Buzón de quejas"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLScNk-4PjhDOEC5KKiIpYg-FVf78DLZFY3hBWwn6l9Y3mi6kSQ/viewform?usp=header"
+    opens_in_new_tab: true
