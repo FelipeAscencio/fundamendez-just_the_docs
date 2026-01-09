@@ -1,3 +1,4 @@
+/* Estilos personalizados para la vista 'Info' */
 .fm-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(220px, 1fr));

@@ -6,8 +6,6 @@ nav_order: 2
 
 # Info
 
-En esta página encontrarán la información principal de la cursada y accesos rápidos a documentos y encuestas.
-
 <div class="fm-grid">
 
   <div class="fm-card">
@@ -19,7 +17,7 @@ En esta página encontrarán la información principal de la cursada y accesos r
 
   <div class="fm-card">
     <h3>Horarios</h3>
-    <p>Martes y jueves de <strong>18 a 21hs</strong>.</p>
+    <p>Martes y Jueves de <strong>18 a 21hs</strong>.</p>
   </div>
 
   <div class="fm-card">
@@ -27,9 +25,9 @@ En esta página encontrarán la información principal de la cursada y accesos r
     <div class="fm-row">
       <select id="fm-encuesta" class="fm-select">
         <option value="" selected disabled>Seleccionar…</option>
-        <option value="{{ '/assets/docs/encuesta_1.html' | relative_url }}">1C 2025</option>
-        <option value="{{ '/assets/docs/encuesta_2.html' | relative_url }}">2C 2025</option>
-        <option value="{{ '/assets/docs/encuesta_3.html' | relative_url }}">Verano 2026</option>
+        <option value="{{ '/assets/docs/Encuesta de fin de curso - 2025 - 1C.html' | relative_url }}">1C 2025</option>
+        <option value="{{ '/assets/docs/Encuesta de fin de curso - 2024 - 2C.html' | relative_url }}">2C 2024</option>
+        <option value="{{ '/assets/docs/Encuesta de fin de curso - 2024 - 1C.html' | relative_url }}">1C 2024</option>
       </select>
 
       <a id="fm-ver-encuesta" class="fm-btn primary" href="#" target="_blank" rel="noopener">Ver</a>
