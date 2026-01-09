@@ -11,7 +11,7 @@ plugins:
   - jekyll-remote-theme
 
 search_enabled: true
-color_scheme: light
+enable_theme_switcher: true
 favicon_ico: "/assets/img/favicon.ico"
 
 just_the_docs:
