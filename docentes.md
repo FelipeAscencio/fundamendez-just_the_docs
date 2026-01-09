@@ -6,30 +6,55 @@ nav_order: 5
 
 # Docentes
 
-<div class="doc-grid">
-    {% include tarjeta_docente.html nombre="Agus B" base="/assets/img/foto_base.png" %}
-    {% include tarjeta_docente.html nombre="Agus F" base="/assets/img/foto_base.png" %}
-    {% include tarjeta_docente.html nombre="Agus S" base="/assets/img/foto_base.png" %}
+<div align="center">
 
-    {% include tarjeta_docente.html nombre="Ani" base="/assets/img/foto_base.png" %}
-    {% include tarjeta_docente.html nombre="Bauti" base="/assets/img/foto_base.png" %}
-    {% include tarjeta_docente.html nombre="Berni" base="/assets/img/foto_base.png" %}
+<table>
+  <tr>
+    <td align="center" width="220">
+      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
+      <b>Agus B.</b><br>
+      <sub>📧 agusb@fundamendez.edu</sub><br>
+      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
+    </td>
 
-    {% include tarjeta_docente.html nombre="Brisa" base="/assets/img/foto_base.png" %}
-    {% include tarjeta_docente.html nombre="Danny" base="/assets/img/foto_base.png" %}
-    {% include tarjeta_docente.html nombre="Juampi" base="/assets/img/foto_base.png" %}
+    <td align="center" width="220">
+      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
+      <b>Agus F.</b><br>
+      <sub>📧 agusf@fundamendez.edu</sub><br>
+      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
+    </td>
 
-    {% include tarjeta_docente.html nombre="Mariano" base="/assets/img/foto_base.png" %}
-    {% include tarjeta_docente.html nombre="Mar" base="/assets/img/foto_base.png" %}
-    {% include tarjeta_docente.html nombre="Martu" base="/assets/img/foto_base.png" %}
+    <td align="center" width="220">
+      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
+      <b>Agus S.</b><br>
+      <sub>📧 agus_s@fundamendez.edu</sub><br>
+      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
+    </td>
+  </tr>
 
-    {% include tarjeta_docente.html nombre="May" base="/assets/img/foto_base.png" %}
-    {% include tarjeta_docente.html nombre="Mica" base="/assets/img/foto_base.png" %}
-    {% include tarjeta_docente.html nombre="Paula" base="/assets/img/foto_base.png" %}
+  <tr>
+    <td align="center" width="220">
+      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
+      <b>Ani</b><br>
+      <sub>📧 ani@fundamendez.edu</sub><br>
+      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
+    </td>
 
-    {% include tarjeta_docente.html nombre="Solci" base="/assets/img/foto_base.png" %}
-    {% include tarjeta_docente.html nombre="Tomi" base="/assets/img/foto_base.png" %}
-    {% include tarjeta_docente.html nombre="Tute" base="/assets/img/foto_base.png" %}
+    <td align="center" width="220">
+      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
+      <b>Bauti</b><br>
+      <sub>📧 bauti@fundamendez.edu</sub><br>
+      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
+    </td>
 
-    {% include tarjeta_docente.html nombre="Yoel" base="/assets/img/foto_base.png" %}
+    <td align="center" width="220">
+      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
+      <b>Berni</b><br>
+      <sub>📧 berni@fundamendez.edu</sub><br>
+      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
+    </td>
+  </tr>
+
+</table>
+
 </div>
