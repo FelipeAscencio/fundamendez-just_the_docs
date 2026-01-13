@@ -9,6 +9,12 @@
   gap: 10px;
 }
 
+/* Separador entre links internos y externos */
+.fm-topnav .fm-sep {
+  flex: 0 0 18px;   /* <- esto crea el “hueco” real */
+  height: 1px;
+}
+
 .fm-topnav .btn {
   padding: 0.65rem 1rem;
   font-size: 0.95rem;
@@ -48,6 +54,16 @@
 .page-header p {
   font-size: 1rem;
   margin-bottom: 1rem;
+}
+
+.project-name {
+  font-size: 3rem;
+  margin-bottom: 0.4rem;
+}
+
+.project-tagline {
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
 }
 
 /* TBC - Para dar estilo a las tarjetas de los docentes */
