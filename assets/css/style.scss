@@ -18,18 +18,38 @@
 /* ========== SOLO MOBILE ========== */
 @media (max-width: 768px) {
 
-  /* ✅ FIX: elimina la barra/overflow horizontal (la “franja gris” a la derecha) */
+  /* FIX: elimina cualquier barra/overflow horizontal */
   html, body {
     overflow-x: hidden;
     max-width: 100%;
   }
 
-  /* Botón hamburguesa (arriba a la izquierda) */
+  /* =========================
+     1) En mobile: ocultar header “de escritorio”
+     Dejamos SOLO el botón hamburguesa
+     ========================= */
+
+  /* Ocultamos el contenido del header (título/tagline/nav), pero NO el header en sí */
+  .page-header .project-name,
+  .page-header .project-tagline,
+  .page-header .site-nav--desktop,
+  .page-header .btn {
+    display: none !important;
+  }
+
+  /* Dejamos el header mínimo para que aloje el botón */
+  .page-header {
+    position: relative;
+    padding: 0.75rem 1rem !important;
+    min-height: 64px;
+  }
+
+  /* Botón hamburguesa */
   .nav-toggle {
     display: inline-flex;
     position: absolute;
-    top: 1rem;
-    left: 1rem;
+    top: 10px;
+    left: 10px;
     z-index: 1100;
     width: 44px;
     height: 44px;
@@ -68,6 +88,11 @@
   .nav-toggle__icon::before { top: -7px; }
   .nav-toggle__icon::after  { top:  7px; }
 
+  /* =========================
+     2) Menú mobile full-screen (100% ancho)
+     Sin overlay gris
+     ========================= */
+
   /* Off-canvas container */
   .mobile-nav {
     display: block;
@@ -75,34 +100,27 @@
     inset: 0;
     pointer-events: none;
     z-index: 1050;
-
-    /* ✅ FIX extra: asegura que no “empuje” el layout */
     width: 100%;
   }
 
-  /* Panel izquierdo: ocupa 80% y deja ver parte del contenido */
+  /* Panel: ahora ocupa TODO el ancho y alto */
   .mobile-nav__panel {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-    width: min(80vw, 320px);
+    width: 100vw;              /* ✅ 100% pantalla */
     background: #fff;
-    box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    box-shadow: none;          /* opcional: se ve más “full screen” */
     transform: translateX(-105%);
     transition: transform .22s ease;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
 
-  /* Overlay: solo en el resto de la pantalla */
+  /* ✅ IMPORTANTE: overlay apagado (así no hay mancha gris) */
   .mobile-nav__overlay {
-    position: absolute;
-    top: 0;
-    left: min(80vw, 320px);
-    right: 0;
-    bottom: 0;
-    background: rgba(0,0,0,.18);
+    display: none !important;
   }
 
   .mobile-nav__header {
@@ -151,7 +169,7 @@
 
   /* Estado abierto */
   body.mobile-nav-open {
-    overflow: hidden; /* evita scroll del body cuando el menú está abierto */
+    overflow: hidden;
   }
 
   body.mobile-nav-open .mobile-nav {
@@ -160,13 +178,5 @@
 
   body.mobile-nav-open .mobile-nav__panel {
     transform: translateX(0);
-  }
-
-  .page-header {
-    position: relative;
-  }
-
-  .main-content, .page-header {
-    overflow-x: clip;
   }
 }
