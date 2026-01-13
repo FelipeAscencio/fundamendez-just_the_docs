@@ -3,31 +3,19 @@
 
 @import "{{ site.theme }}";
 
-/* =========================================================
-   Mobile hamburger + menú lateral (SOLO mobile)
-   - No toca estilos del header en desktop
-   - Arregla barra gris (overflow horizontal) en mobile
-   ========================================================= */
-
-/* Por defecto (desktop): oculto todo lo mobile */
+/* ====== Menú de navegación para la versión de escritorio ====== */
 .nav-toggle,
 .mobile-nav {
   display: none;
 }
 
-/* ========== SOLO MOBILE ========== */
+/* ====== Menú de navegación para la versión mobile ====== */
 @media (max-width: 768px) {
   html, body {
     overflow-x: hidden;
     max-width: 100%;
   }
 
-  /* =========================
-     1) En mobile: ocultar header “de escritorio”
-     Dejamos SOLO el botón hamburguesa
-     ========================= */
-
-  /* Ocultamos el contenido del header (título/tagline/nav), pero NO el header en sí */
   .page-header .project-name,
   .page-header .project-tagline,
   .page-header .site-nav--desktop,
@@ -35,14 +23,12 @@
     display: none !important;
   }
 
-  /* Dejamos el header mínimo para que aloje el botón */
   .page-header {
     position: relative;
     padding: 0.75rem 1rem !important;
     min-height: 64px;
   }
 
-  /* Botón hamburguesa */
   .nav-toggle {
     display: inline-flex;
     position: absolute;
@@ -84,14 +70,9 @@
   }
 
   .nav-toggle__icon::before { top: -7px; }
+  
   .nav-toggle__icon::after  { top:  7px; }
 
-  /* =========================
-     2) Menú mobile full-screen (100% ancho)
-     Sin overlay gris
-     ========================= */
-
-  /* Off-canvas container */
   .mobile-nav {
     display: block;
     position: fixed;
@@ -101,22 +82,20 @@
     width: 100%;
   }
 
-  /* Panel: ahora ocupa TODO el ancho y alto */
   .mobile-nav__panel {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-    width: 100vw;              /* ✅ 100% pantalla */
+    width: 100vw;
     background: #fff;
-    box-shadow: none;          /* opcional: se ve más “full screen” */
+    box-shadow: none;
     transform: translateX(-105%);
     transition: transform .22s ease;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
 
-  /* ✅ IMPORTANTE: overlay apagado (así no hay mancha gris) */
   .mobile-nav__overlay {
     display: none !important;
   }
@@ -165,7 +144,6 @@
     background: rgba(0,0,0,.06);
   }
 
-  /* Estado abierto */
   body.mobile-nav-open {
     overflow: hidden;
   }
@@ -179,9 +157,7 @@
   }
 }
 
-/* =========================================================
-   Docentes - Cards responsive estilo Cayman
-   ========================================================= */
+/* ====== Tarjetas de los docentes ====== */
 
 .fm-doc-grid {
   display: grid;
@@ -190,7 +166,6 @@
   margin-top: 18px;
 }
 
-/* Responsive: 2 columnas y luego 1 */
 @media (max-width: 900px) {
   .fm-doc-grid {
     grid-template-columns: repeat(2, minmax(200px, 1fr));
@@ -233,7 +208,7 @@
   font-weight: 700;
   font-size: 1.05rem;
   margin-bottom: 8px;
-  color: #159957; /* verde Cayman */
+  color: #159957;
 }
 
 .fm-doc-meta {
@@ -246,7 +221,7 @@
 .fm-doc-mail {
   font-size: .92rem;
   text-decoration: none;
-  color: #606c71; /* gris Cayman */
+  color: #606c71;
 }
 
 .fm-doc-mail:hover {
@@ -259,8 +234,6 @@
   border-radius: 12px;
   text-decoration: none;
   font-weight: 600;
-
-  /* botón tipo Cayman usando los colores del tema */
   background: rgba(21, 153, 87, .10);
   border: 1px solid rgba(21, 153, 87, .35);
   color: #159957;

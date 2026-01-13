@@ -1,20 +1,22 @@
+<!-- Definición del Layout por defecto de la página web -->
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'es-AR' }}">
+  <!-- Etiqueta head con metadatos y enlaces a estilos -->
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     {% seo %}
-
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% include head-custom.html %}
   </head>
 
+  <!-- Cuerpo de la página web -->
   <script src="{{ '/assets/js/docentes-swap.js' | relative_url }}" defer></script>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
+    <!-- Encabezado de la página con navegación -->
     <header class="page-header" role="banner">
       <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-controls="mobile-nav" aria-expanded="false">
         <span class="nav-toggle__icon" aria-hidden="true"></span>
@@ -42,7 +44,7 @@
       </nav>
     </header>
 
-    <!-- Off-canvas nav mobile -->
+    <!-- Navegación móvil -->
     <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
       <nav class="mobile-nav__panel" aria-label="Menú">
         <div class="mobile-nav__header">
@@ -66,10 +68,11 @@
         </ul>
       </nav>
 
-      <!-- Overlay solo ocupa el "resto" para dejar ver contenido -->
+      <!-- Superposición para cerrar el menú móvil -->
       <div class="mobile-nav__overlay" tabindex="-1" aria-hidden="true"></div>
     </div>
 
+    <!-- Contenido principal de la página -->
     <main id="content" class="main-content" role="main">
       {{ content }}
 

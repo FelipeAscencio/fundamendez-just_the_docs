@@ -1,6 +1,6 @@
+// Implementación del cambio de imagen al pasar el ratón o hacer clic en las imágenes de los docentes.
 (() => {
   const imgs = document.querySelectorAll('img.fm-doc-avatar--swap[data-alt]');
-
   if (!imgs.length) return;
 
   const swap = (img) => {
@@ -9,8 +9,6 @@
     if (!alt || !src) return;
 
     img.classList.add('is-swapping');
-
-    // pequeño delay para que se vea el fade
     setTimeout(() => {
       img.setAttribute('src', alt);
       img.setAttribute('data-alt', src);
@@ -19,13 +17,9 @@
   };
 
   imgs.forEach((img) => {
-    // Desktop hover
     img.addEventListener('mouseenter', () => swap(img));
     img.addEventListener('mouseleave', () => swap(img));
-
-    // Mobile/touch: tap para alternar
     img.addEventListener('click', (e) => {
-      // evita que un tap accidental siga un link cercano en algunos casos
       e.preventDefault();
       swap(img);
     });
