@@ -16,6 +16,6 @@ Martes y jueves de **18 a 21 hs**.
 
 ## Encuestas
 
-- [Encuesta de fin de curso — 2025 (1C)]({{ '/encuestas/encuesta_2025_1c' | relative_url }}){:target="_blank" rel="noopener"}
-- [Encuesta de fin de curso — 2024 (2C)]({{ '/encuestas/encuesta_2024_2c' | relative_url }}){:target="_blank" rel="noopener"}
-- [Encuesta de fin de curso — 2024 (1C)]({{ '/encuestas/encuesta_2024_1c' | relative_url }}){:target="_blank" rel="noopener"}
+- <a href="{{ '/assets/docs/encuesta_2025_1c.html' | relative_url }}" target="_blank" rel="noopener">1C 2025</a>
+- <a href="{{ '/assets/docs/encuesta_2024_2c.html' | relative_url }}" target="_blank" rel="noopener">2C 2024</a>
+- <a href="{{ '/assets/docs/encuesta_2024_1c.html' | relative_url }}" target="_blank" rel="noopener">1C 2024</a>

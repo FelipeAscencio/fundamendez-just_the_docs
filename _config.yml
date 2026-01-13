@@ -8,6 +8,8 @@ theme: jekyll-theme-cayman
 
 # Configuración de la barra de navegación.
 show_downloads: false
+github:
+  is_project_page: false
 
 # Links externos.
 nav_external_links:
