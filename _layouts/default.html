@@ -22,11 +22,7 @@
           {%- for link in site.nav_internal_links -%}
             <a class="btn" href="{{ link.url | relative_url }}">{{ link.title }}</a>
           {%- endfor -%}
-        {%- endif -%}
-
-        <span class="fm-sep"></span>
-
-        {%- if site.nav_external_links -%}
+          
           {%- for link in site.nav_external_links -%}
             <a class="btn" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
           {%- endfor -%}
