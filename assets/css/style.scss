@@ -4,119 +4,12 @@
 @import "{{ site.theme }}";
 
 /* =========================================================
-   FundaMendez - Ajustes generales del header / navegación
-   ========================================================= */
-
-/* Barra de navegación (internos + externos) */
-.fm-topnav {
-  margin-top: 14px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
-/* Separador entre links internos y externos */
-.fm-topnav .fm-sep {
-  flex: 0 0 18px;   /* <- esto crea el “hueco” real */
-  height: 1px;
-}
-
-/* Botones */
-.fm-topnav .btn {
-  padding: 0.65rem 1rem;
-  font-size: 0.95rem;
-}
-
-/* (Ojo: este bloque pisa cosas del .fm-sep anterior; lo dejo como lo tenías) */
-.fm-topnav .fm-sep {
-  width: 100%;
-  height: 0;
-  width: 6px;
-}
-
-/* En pantallas grandes ponemos internos y externos en 2 filas */
-@media (min-width: 900px) {
-  .fm-topnav .fm-sep {
-    width: 100%;
-  }
-}
-
-/* Espaciado general entre botones en el header */
-.page-header .btn {
-  margin: 6px 6px;
-}
-
-/* Separar links internos de externos en el header (Cayman) */
-.page-header .btn[href*="algotron"] {
-  margin-left: 16px;
-}
-
-/* Reducir altura del header en tema Cayman */
-.page-header {
-  padding: 2.5rem 1rem;
-}
-
-.page-header h1 {
-  font-size: 2.2rem;
-  margin-bottom: 0.4rem;
-}
-
-.page-header p {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-
-.project-name {
-  font-size: 3rem;
-  margin-bottom: 0.4rem;
-}
-
-.project-tagline {
-  font-size: 1.05rem;
-  margin-bottom: 1.2rem;
-}
-
-/* =========================================================
-   Contenido - Tarjetas docentes
-   ========================================================= */
-
-/* TBC - Para dar estilo a las tarjetas de los docentes */
-.doc-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(220px, 1fr));
-  gap: 18px;
-  margin-top: 16px;
-}
-
-/* =========================================================
    Mobile hamburger + menú lateral (SOLO mobile)
-   (Requiere HTML con: .nav-toggle, .mobile-nav, .site-nav--desktop, etc.)
+   - No toca estilos del header en desktop
+   - Arregla barra gris (overflow horizontal) en mobile
    ========================================================= */
 
-/* Desktop nav (si usás el nav nuevo con <nav class="site-nav ...">) */
-.site-nav {
-  margin-top: 1rem;
-}
-
-.site-nav__list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: .75rem 1rem;
-  justify-content: center;
-}
-
-.site-nav__link {
-  display: inline-block;
-  padding: .35rem .6rem;
-  border-radius: .35rem;
-  text-decoration: none;
-}
-
-/* Elementos mobile ocultos en desktop */
+/* Por defecto (desktop): oculto todo lo mobile */
 .nav-toggle,
 .mobile-nav {
   display: none;
@@ -125,12 +18,13 @@
 /* ========== SOLO MOBILE ========== */
 @media (max-width: 768px) {
 
-  /* Ocultamos menú horizontal (solo el del nav nuevo) */
-  .site-nav--desktop {
-    display: none;
+  /* ✅ FIX: elimina la barra/overflow horizontal (la “franja gris” a la derecha) */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
   }
 
-  /* Botón hamburguesa */
+  /* Botón hamburguesa (arriba a la izquierda) */
   .nav-toggle {
     display: inline-flex;
     position: absolute;
@@ -181,9 +75,12 @@
     inset: 0;
     pointer-events: none;
     z-index: 1050;
+
+    /* ✅ FIX extra: asegura que no “empuje” el layout */
+    width: 100%;
   }
 
-  /* Panel izquierdo */
+  /* Panel izquierdo: ocupa 80% y deja ver parte del contenido */
   .mobile-nav__panel {
     position: absolute;
     top: 0;
@@ -195,9 +92,10 @@
     transform: translateX(-105%);
     transition: transform .22s ease;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
-  /* Overlay deja ver contenido */
+  /* Overlay: solo en el resto de la pantalla */
   .mobile-nav__overlay {
     position: absolute;
     top: 0;
@@ -224,6 +122,8 @@
     background: transparent;
     font-size: 28px;
     cursor: pointer;
+    padding: 6px 10px;
+    line-height: 1;
   }
 
   .mobile-nav__list {
@@ -244,13 +144,14 @@
     color: inherit;
   }
 
-  .mobile-nav__link:hover {
+  .mobile-nav__link:hover,
+  .mobile-nav__link:focus {
     background: rgba(0,0,0,.06);
   }
 
   /* Estado abierto */
   body.mobile-nav-open {
-    overflow: hidden;
+    overflow: hidden; /* evita scroll del body cuando el menú está abierto */
   }
 
   body.mobile-nav-open .mobile-nav {
