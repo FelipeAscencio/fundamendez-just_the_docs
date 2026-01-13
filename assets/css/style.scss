@@ -161,4 +161,12 @@
   body.mobile-nav-open .mobile-nav__panel {
     transform: translateX(0);
   }
+
+  .page-header {
+    position: relative;
+  }
+
+  .main-content, .page-header {
+    overflow-x: clip;
+  }
 }
