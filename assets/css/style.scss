@@ -178,3 +178,86 @@
     transform: translateX(0);
   }
 }
+
+/* =========================================================
+   Docentes - Cards responsive estilo Cayman
+   ========================================================= */
+
+.fm-doc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+
+/* Responsive: 2 columnas y luego 1 */
+@media (max-width: 900px) {
+  .fm-doc-grid {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .fm-doc-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fm-doc-card {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 14px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(0,0,0,.08);
+}
+
+.fm-doc-avatar {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,.08);
+  margin-bottom: 10px;
+}
+
+.fm-doc-name {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  color: #159957; /* verde Cayman */
+}
+
+.fm-doc-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.fm-doc-mail {
+  font-size: .92rem;
+  text-decoration: none;
+  color: #606c71; /* gris Cayman */
+}
+
+.fm-doc-mail:hover {
+  text-decoration: underline;
+}
+
+.fm-doc-slack {
+  display: inline-block;
+  padding: .55rem .9rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+
+  /* botón tipo Cayman usando los colores del tema */
+  background: rgba(21, 153, 87, .10);
+  border: 1px solid rgba(21, 153, 87, .35);
+  color: #159957;
+}
+
+.fm-doc-slack:hover {
+  background: rgba(21, 153, 87, .16);
+}

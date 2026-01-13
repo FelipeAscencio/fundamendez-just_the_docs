@@ -6,156 +6,60 @@ nav_order: 5
 
 # Docentes
 
-<div align="center">
+<div class="fm-doc-grid">
 
-<table>
-  <tr>
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Agus B.</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
+  <div class="fm-doc-card">
+    <img class="fm-doc-avatar" src="{{ '/assets/img/foto_base.png' | relative_url }}" alt="Agus B.">
+    <div class="fm-doc-name">Agus B.</div>
+    <div class="fm-doc-meta">
+      <a class="fm-doc-mail" href="mailto:example@fi.uba.ar">📧 example@fi.uba.ar</a>
+      <a class="fm-doc-slack" href="https://fundamendez.slack.com/" target="_blank" rel="noopener">Slack</a>
+    </div>
+  </div>
 
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Agus F.</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
+  <div class="fm-doc-card">
+    <img class="fm-doc-avatar" src="{{ '/assets/img/foto_base.png' | relative_url }}" alt="Agus F.">
+    <div class="fm-doc-name">Agus F.</div>
+    <div class="fm-doc-meta">
+      <a class="fm-doc-mail" href="mailto:example@fi.uba.ar">📧 example@fi.uba.ar</a>
+      <a class="fm-doc-slack" href="https://fundamendez.slack.com/" target="_blank" rel="noopener">Slack</a>
+    </div>
+  </div>
 
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Agus S.</b><br>
-      <sub>📧 example@fi.uba.ar<</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-  </tr>
+  <div class="fm-doc-card">
+    <img class="fm-doc-avatar" src="{{ '/assets/img/foto_base.png' | relative_url }}" alt="Agus S.">
+    <div class="fm-doc-name">Agus S.</div>
+    <div class="fm-doc-meta">
+      <a class="fm-doc-mail" href="mailto:example@fi.uba.ar">📧 example@fi.uba.ar</a>
+      <a class="fm-doc-slack" href="https://fundamendez.slack.com/" target="_blank" rel="noopener">Slack</a>
+    </div>
+  </div>
 
-  <tr>
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Ani</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
+  <div class="fm-doc-card">
+    <img class="fm-doc-avatar" src="{{ '/assets/img/foto_base.png' | relative_url }}" alt="Ani">
+    <div class="fm-doc-name">Ani</div>
+    <div class="fm-doc-meta">
+      <a class="fm-doc-mail" href="mailto:example@fi.uba.ar">📧 example@fi.uba.ar</a>
+      <a class="fm-doc-slack" href="https://fundamendez.slack.com/" target="_blank" rel="noopener">Slack</a>
+    </div>
+  </div>
 
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Bauti</b><br>
-      <sub>📧 example@fi.uba.com</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
+  <div class="fm-doc-card">
+    <img class="fm-doc-avatar" src="{{ '/assets/img/foto_base.png' | relative_url }}" alt="Bauti">
+    <div class="fm-doc-name">Bauti</div>
+    <div class="fm-doc-meta">
+      <a class="fm-doc-mail" href="mailto:example@fi.uba.com">📧 example@fi.uba.com</a>
+      <a class="fm-doc-slack" href="https://fundamendez.slack.com/" target="_blank" rel="noopener">Slack</a>
+    </div>
+  </div>
 
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Berni</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Brisa</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Danny</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Juampi</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Mariano</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Mar</b><br>
-      <sub>📧 example@gmail.com</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Martu</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>May</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Mica</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Paula</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Solci</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Tomi</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Tute</b><br>
-      <sub>📧 example@fi.uba.ar</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="220">
-      <img src="{{ '/assets/img/foto_base.png' | relative_url }}" width="180"><br>
-      <b>Yoel</b><br>
-      <sub>📧 example</sub><br>
-      <a href="https://fundamendez.slack.com/" target="_blank">Slack</a>
-    </td>
-  </tr>
-
-</table>
+  <div class="fm-doc-card">
+    <img class="fm-doc-avatar" src="{{ '/assets/img/foto_base.png' | relative_url }}" alt="Berni">
+    <div class="fm-doc-name">Berni</div>
+    <div class="fm-doc-meta">
+      <a class="fm-doc-mail" href="mailto:example@fi.uba.ar">📧 example@fi.uba.ar</a>
+      <a class="fm-doc-slack" href="https://fundamendez.slack.com/" target="_blank" rel="noopener">Slack</a>
+    </div>
+  </div>
 
 </div>
