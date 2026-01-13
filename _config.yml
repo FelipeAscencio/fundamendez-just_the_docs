@@ -3,26 +3,13 @@ title: "FundaMendez"
 description: "Sitio de la materia 'Fundamentos de programación' cátedra Méndez."
 url: "https://fundamendez.github.io"
 
-# Configuración del tema y plugins.
-remote_theme: just-the-docs/just-the-docs
-nav_enabled: true
-search_enabled: true
-plugins:
-  - jekyll-remote-theme
+# Tema de GitHub Pages (gem-based)
+theme: jekyll-theme-cayman
 
-# Configuración del esquema de color.
-color_scheme: dark
-color_scheme_toggle: true
+# Configuración de la barra de navegación.
+show_downloads: false
 
-# Configuración del favicon (Icono de la pestaña en el navegador).
-favicon_ico: "/assets/img/favicon.ico"
-
-# Configuración de CSS personalizado.
-just_the_docs:
-  custom_css:
-    - assets/css/custom.css
-
-# Configuración de enlaces externos en la barra de navegación.
+# Links externos.
 nav_external_links:
   - title: "AlgoTron"
     url: "https://algotron.com.ar/"
@@ -36,3 +23,16 @@ nav_external_links:
   - title: "Buzón de quejas"
     url: "https://docs.google.com/forms/d/e/1FAIpQLScNk-4PjhDOEC5KKiIpYg-FVf78DLZFY3hBWwn6l9Y3mi6kSQ/viewform?usp=header"
     opens_in_new_tab: true
+
+# Links internos (barra superior)
+nav_internal_links:
+  - title: "Home"
+    url: "/"
+  - title: "Info"
+    url: "/info"
+  - title: "Material"
+    url: "/material"
+  - title: "Cronograma"
+    url: "/cronograma"
+  - title: "Docentes"
+    url: "/docentes"
