@@ -30,6 +30,26 @@
   margin: 6px 6px;
 }
 
+/* Separar links internos de externos en el header (Cayman) */
+.page-header .btn[href*="algotron"] {
+  margin-left: 16px;
+}
+
+/* Reducir altura del header en tema Cayman */
+.page-header {
+  padding: 2.5rem 1rem;
+}
+
+.page-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.page-header p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
 /* TBC - Para dar estilo a las tarjetas de los docentes */
 .doc-grid {
   display: grid;
