@@ -15,14 +15,15 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h2 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 
       <div class="fm-topnav" aria-label="Navegación">
         {%- if site.nav_internal_links -%}
           {%- for link in site.nav_internal_links -%}
             <a class="btn" href="{{ link.url | relative_url }}">{{ link.title }}</a>
           {%- endfor -%}
-          
+
           {%- for link in site.nav_external_links -%}
             <a class="btn" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a>
           {%- endfor -%}
