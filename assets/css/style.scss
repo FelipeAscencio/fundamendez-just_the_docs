@@ -17,8 +17,6 @@
 
 /* ========== SOLO MOBILE ========== */
 @media (max-width: 768px) {
-
-  /* FIX: elimina cualquier barra/overflow horizontal */
   html, body {
     overflow-x: hidden;
     max-width: 100%;
